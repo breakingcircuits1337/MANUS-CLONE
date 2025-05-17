@@ -1,0 +1,20 @@
+"""
+Configuration file for AI Agent Application
+"""
+
+{
+    "data_dir": "data",
+    "nlp_config": {
+        "max_context_length": 20,
+        "default_provider": "gemini"
+    },
+    "web_scraping_config": {
+        "user_agent": "AI Agent App/1.0",
+        "rate_limit": 1
+    },
+    "data_analysis_config": {},
+    "api_config": {
+        "default_provider": "gemini",
+        "api_keys": {}
+    }
+}
